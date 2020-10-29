@@ -9,5 +9,6 @@ public class Endpoint {
     @GetMapping
     public String versao(){
         return System.getProperty("java.runtime.version");
+System.out.println("Olá Elton!");
     }
 }
